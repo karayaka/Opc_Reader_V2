@@ -250,6 +250,18 @@
     <Compile Include="Repositories\BaseRepository.cs" />
     <Compile Include="Repositories\MainOpcReadRepository.cs" />
     <Compile Include="ViewModels\RunPartViewModel.cs" />
+    <Compile Include="Views\JobInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\JobInfoForm.Designer.cs">
+      <DependentUpon>JobInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlanInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\PlanInfoForm.Designer.cs">
+      <DependentUpon>PlanInfoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\RunPartViewForm.cs">
       <SubType>Form</SubType>
     </Compile>
