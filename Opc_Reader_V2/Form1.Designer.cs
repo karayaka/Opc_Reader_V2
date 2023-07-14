@@ -33,18 +33,20 @@
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(112, 44);
+            this.labelControl1.Location = new System.Drawing.Point(84, 36);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(75, 16);
+            this.labelControl1.Size = new System.Drawing.Size(55, 13);
             this.labelControl1.TabIndex = 0;
-            this.labelControl1.Text = "labelControl1";
+            this.labelControl1.Text = "test control";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.labelControl1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
