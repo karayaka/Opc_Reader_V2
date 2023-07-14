@@ -270,6 +270,7 @@
     <Folder Include="Data\" />
     <Folder Include="DB\" />
     <Folder Include="Repositories\" />
+    <Folder Include="Views\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
