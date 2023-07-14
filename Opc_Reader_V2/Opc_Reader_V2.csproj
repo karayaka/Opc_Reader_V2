@@ -241,6 +241,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\RunPartViewModel.cs" />
+    <Compile Include="Views\RunPartViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\RunPartViewForm.Designer.cs">
+      <DependentUpon>RunPartViewForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -253,6 +259,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\RunPartViewForm.resx">
+      <DependentUpon>RunPartViewForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -271,7 +280,6 @@
     <Folder Include="Data\" />
     <Folder Include="DB\" />
     <Folder Include="Repositories\" />
-    <Folder Include="Views\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
