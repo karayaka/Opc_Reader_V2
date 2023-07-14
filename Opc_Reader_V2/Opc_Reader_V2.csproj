@@ -247,6 +247,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="ProjectConfig\PrConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\BaseRepository.cs" />
     <Compile Include="Repositories\MainOpcReadRepository.cs" />
     <Compile Include="ViewModels\RunPartViewModel.cs" />
     <Compile Include="Views\RunPartViewForm.cs">
