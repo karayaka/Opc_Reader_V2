@@ -60,6 +60,15 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\JobInfoModel.cs" />
+    <Compile Include="Models\MachineState.cs" />
+    <Compile Include="Models\PartInfoModel.cs" />
+    <Compile Include="Models\PartOperetingData.cs" />
+    <Compile Include="Models\PlanInfoModel.cs" />
+    <Compile Include="Models\PlateOperatingDataModel.cs" />
+    <Compile Include="Models\RunHisrtoryModel.cs" />
+    <Compile Include="Models\RunInfoModel.cs" />
+    <Compile Include="Models\RunPartInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -86,6 +95,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="DB\" />
+    <Folder Include="Repositories\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
