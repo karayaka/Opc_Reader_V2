@@ -233,16 +233,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\BaseModel.cs" />
     <Compile Include="Models\JobInfoModel.cs" />
     <Compile Include="Models\MachineState.cs" />
     <Compile Include="Models\PartInfoModel.cs" />
     <Compile Include="Models\PartOperetingData.cs" />
     <Compile Include="Models\PlanInfoModel.cs" />
     <Compile Include="Models\PlateOperatingDataModel.cs" />
+    <Compile Include="Models\ProjectLogs.cs" />
     <Compile Include="Models\RunHisrtoryModel.cs" />
     <Compile Include="Models\RunInfoModel.cs" />
     <Compile Include="Models\RunPartInfo.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProjectConfig\PrConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\MainOpcReadRepository.cs" />
     <Compile Include="ViewModels\RunPartViewModel.cs" />
