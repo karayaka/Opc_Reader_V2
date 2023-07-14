@@ -1,6 +1,6 @@
 ﻿namespace Opc_Reader_V2.Views
 {
-    partial class PlanInfoForm
+    partial class PartInfoForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,21 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.grdJobGuid = new System.Windows.Forms.DataGridView();
             this.lblResult = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.txtJobGuid = new System.Windows.Forms.TextBox();
             this.btnReadData = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.grdJobGuid = new System.Windows.Forms.DataGridView();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdJobGuid)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // grdJobGuid
+            // 
+            this.grdJobGuid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdJobGuid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grdJobGuid.Location = new System.Drawing.Point(0, 38);
+            this.grdJobGuid.Margin = new System.Windows.Forms.Padding(2);
+            this.grdJobGuid.Name = "grdJobGuid";
+            this.grdJobGuid.RowHeadersWidth = 51;
+            this.grdJobGuid.RowTemplate.Height = 24;
+            this.grdJobGuid.Size = new System.Drawing.Size(800, 412);
+            this.grdJobGuid.TabIndex = 10;
             // 
             // lblResult
             // 
             this.lblResult.AutoSize = true;
-            this.lblResult.Location = new System.Drawing.Point(799, 12);
+            this.lblResult.Location = new System.Drawing.Point(802, 15);
             this.lblResult.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblResult.Name = "lblResult";
             this.lblResult.Size = new System.Drawing.Size(35, 13);
@@ -51,7 +63,7 @@
             // 
             // txtJobGuid
             // 
-            this.txtJobGuid.Location = new System.Drawing.Point(53, 7);
+            this.txtJobGuid.Location = new System.Drawing.Point(56, 10);
             this.txtJobGuid.Margin = new System.Windows.Forms.Padding(2);
             this.txtJobGuid.Name = "txtJobGuid";
             this.txtJobGuid.Size = new System.Drawing.Size(619, 20);
@@ -59,7 +71,7 @@
             // 
             // btnReadData
             // 
-            this.btnReadData.Location = new System.Drawing.Point(675, -1);
+            this.btnReadData.Location = new System.Drawing.Point(678, 2);
             this.btnReadData.Margin = new System.Windows.Forms.Padding(2);
             this.btnReadData.Name = "btnReadData";
             this.btnReadData.Size = new System.Drawing.Size(120, 30);
@@ -70,12 +82,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(2, 9);
+            this.label1.Location = new System.Drawing.Point(1, 13);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 13);
+            this.label1.Size = new System.Drawing.Size(51, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "PlanGuid:";
+            this.label1.Text = "PartGuid:";
             // 
             // panel1
             // 
@@ -87,45 +99,33 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(956, 38);
-            this.panel1.TabIndex = 7;
+            this.panel1.Size = new System.Drawing.Size(800, 38);
+            this.panel1.TabIndex = 9;
             // 
-            // grdJobGuid
-            // 
-            this.grdJobGuid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdJobGuid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grdJobGuid.Location = new System.Drawing.Point(0, 0);
-            this.grdJobGuid.Margin = new System.Windows.Forms.Padding(2);
-            this.grdJobGuid.Name = "grdJobGuid";
-            this.grdJobGuid.RowHeadersWidth = 51;
-            this.grdJobGuid.RowTemplate.Height = 24;
-            this.grdJobGuid.Size = new System.Drawing.Size(956, 450);
-            this.grdJobGuid.TabIndex = 8;
-            // 
-            // PlanInfoForm
+            // PartInfoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(956, 450);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.grdJobGuid);
-            this.Name = "PlanInfoForm";
-            this.Text = "PlanInfoForm";
+            this.Controls.Add(this.panel1);
+            this.Name = "PartInfoForm";
+            this.Text = "PartInfoForm";
+            ((System.ComponentModel.ISupportInitialize)(this.grdJobGuid)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grdJobGuid)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
+        private System.Windows.Forms.DataGridView grdJobGuid;
         private System.Windows.Forms.Label lblResult;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.TextBox txtJobGuid;
         private System.Windows.Forms.Button btnReadData;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.DataGridView grdJobGuid;
     }
 }

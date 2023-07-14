@@ -256,6 +256,12 @@
     <Compile Include="Views\JobInfoForm.Designer.cs">
       <DependentUpon>JobInfoForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\PartInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\PartInfoForm.Designer.cs">
+      <DependentUpon>PartInfoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\PlanInfoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -281,6 +287,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\JobInfoForm.resx">
+      <DependentUpon>JobInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PartInfoForm.resx">
+      <DependentUpon>PartInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PlanInfoForm.resx">
+      <DependentUpon>PlanInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\RunPartViewForm.resx">
       <DependentUpon>RunPartViewForm.cs</DependentUpon>
     </EmbeddedResource>
